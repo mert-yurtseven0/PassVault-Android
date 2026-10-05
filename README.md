@@ -16,26 +16,6 @@
 
 ---
 
-## 📦 APK Dosyası Nasıl Üretilir?
-
-Android APK dosyası oluşturmak için aşağıdaki 2 kolay yöntemden birini kullanabilirsiniz:
-
-### Yöntem 1: Android Studio ile (En Kolay)
-1. Mac'inize ücretsiz [Android Studio](https://developer.android.com/studio) indirin ve kurun.
-2. Android Studio'yu açıp **Open** deyin ve şu klasörü seçin:
-   ```
-   /Users/merttalip/.gemini/antigravity/scratch/PassVault-Android
-   ```
-3. Üst menüden **Build** -> **Build Bundle(s) / APK(s)** -> **Build APK(s)** seçeneğine tıklayın.
-4. Birkaç saniye içinde derleme bitecek ve sağ altta beliren **locate** bağlantısına tıkladığınızda `app-debug.apk` dosyanız hazır olacaktır!
-
-### Yöntem 2: Sıfır Kurulum - GitHub Actions ile Bulutta (1 Dakikada)
-Projede hazır bir GitHub Actions iş akışı (`.github/workflows/build-apk.yml`) bulunmaktadır:
-1. Bu klasörü bir GitHub deposuna yükleyin (Push).
-2. GitHub'da **Actions** sekmesine gidin.
-3. Otomatik olarak başlayan build tamamlandığında **Artifacts** kısmından `PassVault-debug-apk` dosyasını doğrudan telefonunuza indirin!
-
----
 
 ## 📲 APK'yı Android Telefona Yükleme
 
